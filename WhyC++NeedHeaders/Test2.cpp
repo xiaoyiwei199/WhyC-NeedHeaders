@@ -1,6 +1,6 @@
-int f();
+int f(int x);
 
 int g() 
 {
-	return f()+8;
+	return f(2)+8;
 }
